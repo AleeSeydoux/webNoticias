@@ -4,6 +4,9 @@ import Header from './componentes/Header';
 
 class App extends Component {
 
+  state = {
+    noticias : []
+  }
 
   componentDidMount(){
     this.consultarNoticias();
@@ -17,7 +20,9 @@ class App extends Component {
       return respuesta.json();
     }) 
     .then(noticias => {
-      console.log(noticias.article)
+      this.setState({
+        noticias : noticias.articles
+      })
     })
   }
 
