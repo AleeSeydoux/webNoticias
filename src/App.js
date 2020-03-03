@@ -14,11 +14,11 @@ class App extends Component {
     this.consultarNoticias();
   }
 
-  consultarNoticias = categoria => {
+  consultarNoticias = (categoria = 'general') => {
 
-    console.log(categoria);
+   
 
-    let url = 'http://newsapi.org/v2/top-headlines?country=mx&category=general&apiKey=008fd843d4f44c408ef43ee2858f13de';
+    let url = `http://newsapi.org/v2/top-headlines?country=mx&category=${categoria}&apiKey=008fd843d4f44c408ef43ee2858f13de`;
   
   fetch(url)
     .then(respuesta => {
