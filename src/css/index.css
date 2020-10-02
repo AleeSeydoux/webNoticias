@@ -27,7 +27,7 @@ body {
 }
 .buscador label {
   font-size: 2rem;
-  color: black;
+  color: rgb(7, 5, 119);
 }
 .dropdown-content li>span {
   color: black;
@@ -57,7 +57,7 @@ h2 {
 }
 
 .fade-exit {
-  opacity: 1;
+  opacity: 2;
   transform: scale(1.25);
 }
 
