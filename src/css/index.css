@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  background-color: #039be5;
+  background-color: #6413b1;
 }
 .card-content h3 {
   font-size: 1.4rem;
@@ -27,13 +27,13 @@ body {
 }
 .buscador label {
   font-size: 2rem;
-  color: rgb(7, 5, 119);
+  color: rgb(17, 184, 40);
 }
 .dropdown-content li>span {
   color: black;
 }
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #e64a19!important;
+  border-bottom: 1.5px solid #e64a19!important;
 }
 h2 {
   font-family: 'Raleway', sans-serif;
