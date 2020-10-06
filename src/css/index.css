@@ -1,11 +1,11 @@
 body {
-  margin: 0;
+  margin: 5px;
   padding: 0;
   font-family: sans-serif;
 }
 
 body {
-  background-color: #039be5;
+  background-color: #2e0555;
 }
 .card-content h3 {
   font-size: 1.4rem;
@@ -15,7 +15,7 @@ body {
   flex-wrap: wrap;
 }
 .contenedor-noticias {
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 1rem;  
   margin-top: 3rem;
 }
@@ -27,13 +27,13 @@ body {
 }
 .buscador label {
   font-size: 2rem;
-  color: rgb(7, 5, 119);
+  color: rgb(17, 184, 40);
 }
 .dropdown-content li>span {
   color: black;
 }
 .select-wrapper input.select-dropdown:focus {
-  border-bottom: 1px solid #e64a19!important;
+  border-bottom: 1.5px solid #e64a19!important;
 }
 h2 {
   font-family: 'Raleway', sans-serif;
@@ -43,7 +43,7 @@ h2 {
   text-align: center;
 }
 .enviar input[type="submit"] {
-  width: 100%;
+  width: 90%;
 }
 
 .fade-enter{
@@ -52,8 +52,8 @@ h2 {
 }
 .fade-enter.fade-enter-active {
   opacity:1;
-  transition: all .5s ease-in;
-  transform: scale(1);
+  transition: all .8s ease-in;
+  transform: scale(1.5);
 }
 
 .fade-exit {
@@ -63,6 +63,6 @@ h2 {
 
 .fade-exit.fade-exit-active {
   opacity:0;
-  transition: all .5s ease-in;
+  transition: all .7s ease-in;
   transform: scale(1);
 }
