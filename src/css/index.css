@@ -43,7 +43,7 @@ h2 {
   text-align: center;
 }
 .enviar input[type="submit"] {
-  width: 100%;
+  width: 90%;
 }
 
 .fade-enter{
@@ -53,7 +53,7 @@ h2 {
 .fade-enter.fade-enter-active {
   opacity:1;
   transition: all .5s ease-in;
-  transform: scale(1);
+  transform: scale(1.5);
 }
 
 .fade-exit {
