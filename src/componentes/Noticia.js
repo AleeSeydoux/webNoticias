@@ -12,7 +12,7 @@ const Noticia = (props) => {
                     <span className="card-title">{source.name}</span>
                 </div>
                 <div className="card-content">
-                    <h3>{title}</h3>
+                    <h2>{title}</h2>
                     <p>{description}</p>
                 </div>
                 <div className="card-action">
