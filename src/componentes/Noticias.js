@@ -13,7 +13,7 @@ class Noticias extends Component {
                         <CSSTransition
                             key={noticia.url}
                             classNames="fade"
-                            timeout={500}
+                            timeout={450}
                         >
                             <Noticia 
                                 noticia={noticia}
