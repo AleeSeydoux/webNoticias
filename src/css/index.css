@@ -1,6 +1,6 @@
 body {
   margin: 5px;
-  padding: 0;
+  padding: 3px;
   font-family: sans-serif;
 }
 
@@ -8,7 +8,7 @@ body {
   background-color: #2e0555;
 }
 .card-content h3 {
-  font-size: 1.4rem;
+  font-size: 1.1rem;
 }
 .row {
   display: flex;
@@ -16,13 +16,13 @@ body {
 }
 .contenedor-noticias {
   padding: 3rem;
-  border-radius: 1rem;  
+  border-radius: 0.5rem;  
   margin-top: 3rem;
 }
 
 .buscador {
   margin-top: 2rem;
-  margin-bottom: 2rem;
+  margin-bottom: 2.4rem;
   text-align: left;
 }
 .buscador label {
